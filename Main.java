@@ -2,6 +2,6 @@ package MazeSolver;
 
 class Main{
 	public static void main(String[] args){
-		System.out.println("Hello world");
+		MazeSolverController maze_solver =  new MazeSolverController(32,40);
 	}
 }
